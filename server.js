@@ -1,5 +1,5 @@
-var express = require("/home/kevellcorp/myapp/node_modules/express");
-var mysql = require("/usr/local/lib/node_modules/mysql");
+var express = require("express");
+var mysql = require("mysql");
 var bodyParser = require('body-parser')	
 var app = express();
 
@@ -22,8 +22,8 @@ app.use(function(req, res, next) {
 var connection = mysql.createConnection({
 host : "localhost",
 user : "root",
-password : "123",
-database : "tracking"
+password : "",
+database : "dbname"
 });
 
 /*Connecting to Database*/

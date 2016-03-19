@@ -32,13 +32,13 @@ $scope.profile_pictures=data;
 });
 };*/
 
-$scope.myFunction = function( requestData ) {
+/*$scope.myFunction = function( requestData ) {
 	console.log('1'+requestData);
         $('#number').html('<input type="text" id="'+requestData+'" value="'+requestData+'" ng-dblclick="myFunction('+requestData+');">');
     };
 $scope.myFunction1 = function( requestData ) {
 	$('#number').html('<p style="padding:10px;" ng-model="confirmed" id="'+requestData+'" ng-dblclick="myFunction(data.phone);">');
 	console.log('');
-    };
+    };*/
 
 });
